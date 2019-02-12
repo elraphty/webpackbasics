@@ -5,6 +5,7 @@
   "main": "app.js",
   "private": true,
   "scripts": {
+    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/main.js",
     "build": "webpack --mode=production"
   },
   "author": "",
